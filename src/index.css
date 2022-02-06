@@ -78,7 +78,10 @@ ul {
   margin: auto;
 }
 
-
+/* Added this. Images are now max width in their container. Won't go wider than their containing div */
+.tile-img {
+  width: 100%
+}
 .pigTile {
   display: inline;
   background-repeat: no-repeat;
